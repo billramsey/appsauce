@@ -1,0 +1,24 @@
+{
+  "name": "appsauce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "seleniumLibrary.js",
+  "scripts": {
+    "run": "node seleniumLibrary.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billramsey/appsauce.git"
+  },
+  "author": "billramsey@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billramsey/appsauce/issues"
+  },
+  "homepage": "https://github.com/billramsey/appsauce#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "request": "^2.74.0"
+  }
+}
