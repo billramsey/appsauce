@@ -2,30 +2,30 @@
 
 Javascript Selenium Library based on Promises
 
-Installation:
-npm install
+Installation:  
+npm install  
 
-to run demo use:
-node test.js
+to run demo use:  
+node test.js  
 
-##usage:
-var seleniumRequest = require('./seleniumLibrary');
-
+##usage:  
+var seleniumRequest = require('./seleniumLibrary');  
+  
 // Pass connection url and setup options to the request.
 var sel = seleniumRequest('http://localhost:4444', {desiredCapabilities: {browserName: 'firefox'}});
-
-//Each option is a Promise.
-
-// Creates a browser and session.
+  
+//Each option is a Promise.  
+  
+// Creates a browser and session.  
 connect()
-
-// Navigate to the page
+  
+// Navigate to the page  
 navigate(url)
-
-// Return the title
+  
+// Return the title  
 title()
-
-// close the browser
+  
+// close the browser  
 close()
 
 
@@ -48,5 +48,5 @@ sel.connect()
 .then(() => console.log('done'))
 .catch((err) => console.log(err));
 
-## See JSONPW documents for functions these map too.
+### See JSONPW documents for functions these map too.
 https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol
